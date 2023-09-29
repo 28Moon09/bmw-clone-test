@@ -1,0 +1,64 @@
+#navbar {
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 50px;
+}
+#navbar h1 {
+  cursor: pointer;
+  font-size: larger;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+#navbar .Logo {
+  width: 80px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+}
+#navbar img {
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+}
+#navbar .Icons {
+  display: flex;
+  gap: 15px;
+  left: 2350px;
+  top: 20px;
+  position: absolute;
+}
+#navbar .linha-hrz {
+  position: absolute;
+  width: 98.7%;
+  top: 59px;
+  border-bottom: 1px solid black;
+}
+#navbar a {
+  color: #000000;
+  position: relative;
+  text-decoration: none;
+}
+#navbar a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #0854b4;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+#navbar a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+#navbar .nav {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}/*# sourceMappingURL=navbar.component.css.map */

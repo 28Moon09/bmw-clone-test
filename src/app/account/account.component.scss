@@ -1,0 +1,114 @@
+* {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    text-align: center;
+    line-height: 17px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    width: 60%;
+    margin-left: 200px;
+    border: rgb(110, 110, 110);
+}
+
+h1 {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+h3 {
+    width: 70%;
+    margin-top: 3px;
+    margin-left: 180px;
+}
+
+#fname {
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 4%;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#lname {
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 4%;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#email {
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 4%;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#password {
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 4%;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.password {
+    margin-bottom: 20px;
+}
+
+.Forms {
+    height: 100%;
+    width: 30%;
+    background: rgb(255, 255, 255);
+}
+
+.bg {
+    background: url(https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2690&q=80);
+    position: absolute;
+    width: 60.4%;
+    height: 900px;
+    margin: 0;
+    left: 716px;
+    top: 60px;
+}
+
+button {
+    background-color: #0854b4;
+    color: white;
+    height: 50px;
+    border: 0;
+}
+
+button:hover {
+    transition: 1s ease-in-out;
+    background: #053875;
+    border: 1px solid rgb(0, 38, 255);
+  }
+  
+  button:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  button span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

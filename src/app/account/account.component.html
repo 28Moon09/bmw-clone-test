@@ -1,0 +1,26 @@
+<div class="Forms">
+    <h1>REGISTRO BMW ID</h1>
+    <h3>Já tem o seu BMW ID? Inicie sessão <a href="">aqui.</a></h3>
+
+    <form class="inputs">
+        <label for="fname">Primeiro nome:*</label><br>
+        <input type="text" id="fname" name="fname" required oninvalid="this.setCustomValidity('Insira seu primeiro nome.')" onchange="try{setCustomValidity('')}catch(e){}">
+
+        <label for="lname">Sobrenome:</label><br>
+        <input type="text" id="lname" name="lname" required oninvalid="this.setCustomValidity('Insira seu sobrenome.')" onchange="try{setCustomValidity('')}catch(e){}">
+
+        <label for="email" class="email">Email:*</label>
+        <input type="email" id="email" name="email" required oninvalid="this.setCustomValidity('Por favor, insira um endereço de e-mail.')" onchange="try{setCustomValidity('')}catch(e){}">
+
+        <label for="password" class="password">Senha:*</label>
+        <input type="password" id="password" name="password" required oninvalid="this.setCustomValidity('Selecione uma senha que cumpra as regras aplicáveis a senha.')" onchange="try{setCustomValidity('')}catch(e){}">
+
+        <button type="submit">Registrar</button>
+    
+        <h6 class="page">Esta página usa hCaptcha. Para mais detalhes, consulte a Proteção de Dados ou o Aviso Legal.</h6>
+        <h6>*Campos obrigatórios</h6>
+    </form>
+    <div class="bg">
+
+    </div>
+</div>
